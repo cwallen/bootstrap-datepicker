@@ -1237,7 +1237,8 @@
 				.find('>div')
 				.hide()
 				.filter('.datepicker-'+DPGlobal.modes[this.viewMode].clsName)
-					.css('display', 'block');
+				.css('display', 'block')
+				.show();
 			this.updateNavArrows();
 		}
 	};
